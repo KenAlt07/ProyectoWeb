@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> UVP | PÁGINA WEB </title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="CSS/estilos.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+</head>
+<body> 
+    <nav class="navbar navbar-expand-lg navbar-dark ">
+        <div class="container">
+            <a class="navbar-brand" href="#"> 
+                <img src="ASSETS/uvp_logo.png" alt="uvp_logo" class="img-fluid" width="40" height="40"> 
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="HTML/licenciatura.html"> <b> Licenciaturas </b> </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="HTML/ingenierias.html"> <b> Ingenierías </b> </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="HTML/complejos.html"> <b> Complejos </b> </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="HTML/eventos.html"> <b> Eventos UVP </b> </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="HTML/contacto.html"> <b> Contáctanos </b> </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="HTML/acerca.html"> <b> Acerca de... </b> </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <header class="bg-light text-center py-5">
+        <div class="container">
+            <h1 class="display-4 animate__animated animate__headShake"> <b>¡Bienvenidos a UVP! </b> </h1>
+            <h3 class="display-4 animate__animated animate__headShake"> Universidad del Valle de Puebla </h3>
+            <p> <b> Explora nuestros cursos, recursos y descubre una comunidad educativa comprometida con tu desarrollo. </b> </p>
+            <a href="https://www.uvp.mx/?fbclid=PAZXh0bgNhZW0CMTEAAaa76jDPZ5VwhOHmxbrBEdAcm6Mu7FgPrv6RCjGzZi7hQOsx_GNiNIMQPPI_aem_UkxMam5RAQjt6xs1tJr8yg" class="btn btn-lg mt-3" target="_blank"> Conoce más </a>
+        </div>
+    </header>    
+    <section class="py-5">
+        <div class="container">
+            <div class="row">
+                
+                <div class="col-md-6">
+                    <div class="card mb-6" >
+                        <img src="ASSETS/Complejo Kukulcán.jpeg" class="card-img-top img-fluid" alt="Imagen campus">
+                        <div class="card-body" id="card-body2">
+                            <h2 class="card-title"> <b> Campus Puebla </b></h2>
+                            <p class="card-text">  </p>
+                            <a href="https://maps.app.goo.gl/WmYUpgTTmyafMBLUA" class="btn btn-outline-primary" target="_blank">Ver más</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="card mb-6">
+                        <img src="ASSETS/uvp-tehuacan.png" class="card-img-top" alt="Imagen eventos">
+                        <div class="card-body" id="card-body3">
+                            <h2 class="card-title"> <b> Campus Tehuacan </b></h2>
+                            <p class="card-text">  </p>
+                            <a href="https://maps.app.goo.gl/UnaWyc7aeukgL4RJ6" class="btn btn-outline-primary" target="_blank">Ver más</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section class="bg-light p-5 text-center">
+        <h2 class="display-4"> <b>Cualidades de la UVP</b> </h2>
+        <p> ¡Ranking #22 a nivel Nacional de las mejores Universidades de México! </p>
+        <img src="ASSETS/ranking_uvp.jpeg" alt="Imagen villas_uvp" class="img-fluid">
+    </section>
+
+    <section id="carrusel">
+        <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active" data-bs-interval="10000">
+              <img src="ASSETS/Logo_Oficial_UVP.jpg" class="d-block w-100" alt="...">
+            </div>  
+            <div class="carousel-item" data-bs-interval="2000">
+              <img src="ASSETS/universidad-del-valle-de-puebla-008285_large.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="ASSETS/uvp-tehuacan.png" class="d-block w-100" alt="...">
+            </div>
+          </div>
+          <div class="carousel-item" data-bs-interval="2000">
+            <img src="ASSETS/ImagenCarrusel1.jpg" class="d-block w-100" alt="...">
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden"> Visualización </span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </section>
+      
+      <section class="bg-light p-5 text-center">
+        <h2> <b> ¡Te estamos esperando Futura Pantera! </b> </h2>
+        <p> ... </p>
+        <img src="ASSETS/Panteras UVP.jpeg" class="#" alt="#" />
+    </section>
+      <!---->
+    <!-- Pie de Página -->
+    <footer class="bg-primary text-white text-center py-3">
+        <div class="container">
+            <p class="mb-0">© 2024 Escuela UVP. Todos los derechos reservados.</p>
+            <a href="#" class="text-white">Política de Privacidad</a> |
+            <a href="#" class="text-white">Términos de Uso</a>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

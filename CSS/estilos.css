@@ -1,0 +1,46 @@
+.navbar{
+    background: linear-gradient(to right, #fed900,#ec7b24,#e80032,#91268f);
+}
+
+body{
+    background:linear-gradient(to right, rgb(43, 42, 42), rgb(32, 31, 31), black);
+}
+.bg-light{
+    color: aliceblue;
+    background: linear-gradient(to right,#91268f,#e80032)
+}
+
+.btn{
+    background-color: #ec7b24;
+    color:aliceblue;
+}
+.btn:hover{
+    background-color: #ffffff;
+    color: rgb(0, 132, 247);
+}
+
+.card-body{
+    color: #ffffff;;
+    background: linear-gradient(to right,#ec7b24,#91268f)
+}
+#card-body2{
+    background: linear-gradient(to right,#91268f,#ec7b24)
+}
+#card-body3{
+    background: linear-gradient(to right,#ec7b24,#e80032)
+}
+
+.bg-primary{
+    background: linear-gradient(to right, #fed900,#ec7b24,#e80032,#91268f);
+}
+.accordion-button{
+    background: linear-gradient(to right, rgb(43, 42, 42), #781476, #e80032, #ec7b24);
+    color: white;
+}
+.accordion-body{
+    background: linear-gradient(to right, #781476, #e80032,#ec7b24,#e80032, #781476);
+    color: white;
+}
+.img-card-img-top{
+    filter: saturate(1.5);
+}
